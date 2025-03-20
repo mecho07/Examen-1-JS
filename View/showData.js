@@ -1,4 +1,4 @@
-import getData from "../API/getData.JS";
+import getData from "../Api/getData.js";
 
 const showdata = async () => {
     const data = await getData();

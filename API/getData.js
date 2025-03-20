@@ -7,8 +7,8 @@ async function getData(){
             throw new Error("OMG...:", data.status);
         }
         let datajason = await data.json();
-        console.log(datajason.results);
-        return datajason.results;
+        console.log(datajason);
+        return datajason;
 
         console.log( await data.json())
 } catch (error) {
